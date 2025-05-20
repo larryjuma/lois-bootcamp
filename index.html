@@ -1,33 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>PLP Website</title>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <title>Lois Academy</title>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Open+Sans:wght@400;600&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 
   <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-  </div> 
+  </div>
 
   <div class="nav-bar">
     <span>Lois <i style="color: #ff6f00;;">Academy</i></span>
-  
+
     <div class="hamburger" onclick="toggleMenu()">
       &#9776;
     </div>
-  
+
     <ol class="nav-links">
       <li><a href="#" style="color: #ff6f00;;">Home</a></li>
       <li><a href="about.html">About</a></li>
-      <li><a href="courses.html">Courses</a></li>
+      <li><a href="courses.html">Programmes</a></li>
       <li><a href="contact.html">Contact</a></li>
     </ol>
   </div>
-  
+
 
   <div id="currTime">
     <h1>00:00</h1>
@@ -42,7 +46,7 @@
 
     <p>We mainly focus on Mobile, Web Dev with MERN stuck and Artificial Intelligence.</p>
     <a style="text-decoration: none;" href="courses.html">
-    <button class="my-button">Enroll Now</button>
+      <button class="my-button">Enroll Now</button>
     </a>
   </section>
 
@@ -52,77 +56,162 @@
       <h3>Java Development</h3>
       <p>Learn one of the most in demand skill. Java for backend.</p>
       <h5>$50</h5>
+      <div class="button-group">
+  <button>Learn more</button>
+  <button onclick="location.href='signUp.html'">Sign Up Now</button>
+</div>
+
+
     </div>
 
     <div class="card-details">
       <img src="Images/python.jfif" alt="java icon">
       <h3>Python Development</h3>
       <p>The most common programming language for Back-End Development.</p>
-      <h5>$48</h5>
+      <h5>$64</h5>
+<div class="button-group">
+  <button>Learn more</button>
+  <button onclick="location.href='signUp.html'">Sign Up Now</button>
+</div>
+
     </div>
 
     <div class="card-details">
       <img src="Images/ai.jfif" alt="java icon">
       <h3>AI</h3>
       <p>Learn one of the most in demand skill.Artificial Intelligence</p>
-      <h5>$69</h5>
+
+      <h5>$79</h5>
+<div class="button-group">
+  <button>Learn more</button>
+  <button onclick="location.href='signUp.html'">Sign Up Now</button>
+</div>
+
+
     </div>
 
     <div class="card-details">
       <img src="Images/kotlin.png" alt="java icon">
       <h3>Kotlin Dev</h3>
       <p>Learn Kotlin modern language for Android Development used by many Android Developers</p>
-      <h5>$60</h5>
+
+      <h5>$69</h5>
+   <div class="button-group">
+  <button>Learn more</button>
+  <button onclick="location.href='signUp.html'">Sign Up Now</button>
+</div>
+
     </div>
   </div>
 
-<section class="about-section">
-  <h3>About</h3>
-  <p>Lois Academy formally founded by Dr. Alex Lois in the late 2010s. With the mission to transform African citizens</p>
-  <p>It started with only 50 students and right now it has like 5000+ individuals ernolling to learn tech skills.</p>
-</section>
-,
+  <section class="about-section">
+    <h3>About</h3>
+    <h5>Empowering Potential. Unlocking Possibilities.</h5>
+    <h5>Lois Academy is a launchpad for driven, creative, and courageous young minds across Africa.</h5>
+    <p>We exist to ignite untapped potential by equipping the next generation of innovators, builders, and change-makers
+      with real-world skills and global mindsets.</p>
+    <p>As a part of a growing ecosystem for impact-driven learning, Lois Academy prepares future leaders to not only
+      thrive—but to lead Africa into a bold, new era of transformation.</p>
+  </section>
 
-<section class="contact-section">
-  <h3>Contact Us</h3>
+  <div class="carousel-container">
+    <!-- Testimonial 1 -->
+    <div class="testimonial active">
+      <img src="Images/jane.jfif" alt="User 1">
+      <p>Lois Academy gave me the practical skills and confidence I needed to succeed as a web developer. Their
+        supportive teaching and hands-on approach made learning easy and impactful. I'm truly grateful for the
+        experience</p>
+      <h4>Jane Doe</h4>
+      <span>Web Developer</span>
+    </div>
 
-  <p>Have any queries feel free to leave a message</p>
+    <!-- Testimonial 2 -->
+    <div class="testimonial">
+      <img src="Images/mark.jfif" alt="User 2">
+      <p>Lois Academy gave me the tech skills and clarity I needed to bring my business ideas to life. Their practical
+        training empowered me to build and manage my own digital products with confidence. I’m truly grateful for their
+        impact on my journey</p>
+      <h4>John Mark</h4>
+      <span>Entrepreneur</span>
+    </div>
 
-  <div class="form">
+    <!-- Testimonial 3 -->
+    <div class="testimonial">
+      <img src="Images/linda.jfif" alt="User 3">
+      <p>Lois Academy equipped me with the practical skills and confidence to thrive as a Software Engineer. Their
+        hands-on training and supportive guidance made a real difference in my growth. I'm truly thankful for the
+        experience.</p>
+      <h4>Linda N.</h4>
+      <span>Software Engineer</span>
+    </div>
 
-    <fieldset>
-      <legend>Leave a Message</legend>
-      <label for="name">Sir Name:</label>
-      <input type="text" placeholder="larry">
-  
-      <label for="name">first Name:</label>
-      <input type="text" placeholder="larry">
-  
-      <label for="name">Email:</label>
-      <input type="text" placeholder="spongebob254@gmail.com" required>
-  
-      <textarea name="text" id="textArea" placeholder="leave us a message"></textarea>
-  <br>
-      <input type="submit" value="submit" id="contactForm">
-    </fieldset>
-
-
+    <!-- Navigation buttons -->
+    <div class="nav-buttons">
+      <button id="prevBtn">❮ Prev</button>
+      <button id="nextBtn">Next ❯</button>
+    </div>
   </div>
-</section>
 
-<footer>
-  <p>&copy All Rights Served</p>
+  <div class="partner-section">
+    <h3 style="text-decoration: underline;">Top Companies investing with us:</h3>
+    <img src="Images/alt.png" alt="">
+    <img src="Images/lumin.png" alt="">
+    <img src="Images/snap.png" alt="">
+    <img src="Images/enk.png" alt="">
+    <img src="Images/Ed.png" alt="">
 
-<div class="social-links">
-  <i class="fab fa-youtube"></i>
-  <i class="fab fa-instagram"></i>
-  <i class="fab fa-linkedin"></i>
-  <i class="fab fa-facebook"></i>
+    <div class="partner-section-details">
+      <img src="Images/map.jfif" alt="">
+      <p>At Lois Academy, our strategic partnerships with renowned organizations such as the Ed Partners Africa,
+        AltSchool Africa, Luminos Fund, and Enko Education empower us to provide eligible candidates with sponsored
+        access to exceptional training programs, collaborations with prestigious global universities, and a thriving
+        learning community. By leveraging cutting-edge in-person and online infrastructure, we deliver a transformative
+        educational experience to thousands of learners across Africa. Eligible candidates gain full access to the Lois
+        Academy ecosystem through an affordable $5 monthly All Access fee, unlocking opportunities for growth and
+        success.</p>
+    </div>
+  </div>
 
-</div>
+  <section class="contact-section">
+    <h3>Contact Us</h3>
 
-</footer>
+    <p>Have any queries feel free to leave a message</p>
+
+    <div class="form">
+
+      <fieldset>
+        <legend>Leave a Message</legend>
+        <label for="name">Sir Name:</label>
+        <input type="text" placeholder="larry">
+
+        <label for="name">first Name:</label>
+        <input type="text" placeholder="larry">
+
+        <label for="name">Email:</label>
+        <input type="text" placeholder="spongebob254@gmail.com" required>
+
+        <textarea name="text" id="textArea" placeholder="leave us a message"></textarea>
+        <br>
+        <input type="submit" value="submit" id="contactForm">
+      </fieldset>
+
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy All Rights Served</p>
+
+    <div class="social-links">
+      <i class="fab fa-youtube"></i>
+      <i class="fab fa-instagram"></i>
+      <i class="fab fa-linkedin"></i>
+      <i class="fab fa-facebook"></i>
+
+    </div>
+
+  </footer>
 
   <script src="script.js"></script>
 </body>
+
 </html>
